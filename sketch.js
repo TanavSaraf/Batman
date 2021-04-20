@@ -40,7 +40,7 @@ function draw(){
     {
         if(dropsA[i].body.position.y>=550)
         {
-         Matter.body.setPosition(dropsA[i].body,{x:random(10,390),y:random(5,530)})
+         Matter.Body.setPosition(dropsA[i].body,{x:random(10,390),y:random(5,530)})
         }
         dropsA[i].display();
     }
